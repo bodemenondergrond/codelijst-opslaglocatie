@@ -2,8 +2,8 @@
 version: 2
 plan:
   project-key: DOV
-  key: DOVBEMONSTERINGSTYPE
-  name: codelijst-bemonsteringstype
+  key: DOVOPSLAGLOCATIE
+  name: codelijst-opslaglocatie
 
 triggers:
   - polling: 130
@@ -71,7 +71,7 @@ Release:
 ---
 version: 2
 plan:
-  key: DOV-DOVBEMONSTERINGSTYPE
+  key: DOV-DOVOPSLAGLOCATIE
 
 plan-permissions:
   - groups:

@@ -1,0 +1,121 @@
+{
+    "@graph": [
+        {
+            "@id": "ct:4",
+            "skos:topConceptOf": {
+                "@id": "cs:opslaglocatie"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "De grotten van Han"
+            },
+            "skos:inScheme": {
+                "@id": "cs:opslaglocatie"
+            },
+            "dc:identifier": "4",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cs:opslaglocatie",
+            "skos:hasTopConcept": [
+                {
+                    "@id": "ct:2"
+                },
+                {
+                    "@id": "ct:4"
+                },
+                {
+                    "@id": "ct:1"
+                },
+                {
+                    "@id": "ct:3"
+                }
+            ]
+        },
+        {
+            "@id": "ct:1",
+            "skos:topConceptOf": {
+                "@id": "cs:opslaglocatie"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Geotheek Vilvoorde"
+            },
+            "skos:inScheme": {
+                "@id": "cs:opslaglocatie"
+            },
+            "dc:identifier": "1",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "colt:opslaglocaties",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Collectie van opslaglocaties."
+            },
+            "skos:member": [
+                {
+                    "@id": "ct:2"
+                },
+                {
+                    "@id": "ct:4"
+                },
+                {
+                    "@id": "ct:1"
+                },
+                {
+                    "@id": "ct:3"
+                }
+            ],
+            "skos:mappingRelation": {
+                "@id": "file:///tmp/RtmpkpFFvo/opslaglocatie"
+            },
+            "skos:inScheme": {
+                "@id": "file:///tmp/RtmpkpFFvo/cs"
+            },
+            "dc:identifier": "opslaglocaties",
+            "@type": "skos:Collection"
+        },
+        {
+            "@id": "ct:2",
+            "skos:topConceptOf": {
+                "@id": "cs:opslaglocatie"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Afdeling Geotechniek (Zwijnaarde)"
+            },
+            "skos:inScheme": {
+                "@id": "cs:opslaglocatie"
+            },
+            "dc:identifier": "2",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:3",
+            "skos:topConceptOf": {
+                "@id": "cs:opslaglocatie"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "steenkoolmijnen in Limburg"
+            },
+            "skos:inScheme": {
+                "@id": "cs:opslaglocatie"
+            },
+            "dc:identifier": "3",
+            "@type": "skos:Concept"
+        }
+    ],
+    "@context": {
+        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocaties/",
+        "dct": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/opslaglocaties/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
+    }
+}

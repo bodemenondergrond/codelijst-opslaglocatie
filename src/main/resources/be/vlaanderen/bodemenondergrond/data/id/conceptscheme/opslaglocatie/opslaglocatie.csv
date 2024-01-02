@@ -1,0 +1,6 @@
+"uri","type","dc.id","collection","notation","prefLabel","altLabel","broader","broaderTransitive","broadMatch","changeNote","closeMatch","definition","editorialNote","exactMatch","example","hiddenLabel","historyNote","inScheme","mappingRelation","note","related","relatedMatch","scopeNote","semanticRelation","topConceptOf"
+"colt:opslaglocaties","skos:Collection","opslaglocaties",,,"Collectie van opslaglocaties.",,,,,,,,,,,,,"cs","opslaglocatie",,,,,,
+"ct:1","skos:Concept","1","colt:opslaglocaties",,"Geotheek Vilvoorde",,,,,,,,,,,,,"cs:opslaglocatie",,,,,,,"cs:opslaglocatie"
+"ct:2","skos:Concept","2","colt:opslaglocaties",,"Afdeling Geotechniek (Zwijnaarde)",,,,,,,,,,,,,"cs:opslaglocatie",,,,,,,"cs:opslaglocatie"
+"ct:3","skos:Concept","3","colt:opslaglocaties",,"steenkoolmijnen in Limburg",,,,,,,,,,,,,"cs:opslaglocatie",,,,,,,"cs:opslaglocatie"
+"ct:4","skos:Concept","4","colt:opslaglocaties",,"De grotten van Han",,,,,,,,,,,,,"cs:opslaglocatie",,,,,,,"cs:opslaglocatie"

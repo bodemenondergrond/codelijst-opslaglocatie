@@ -8,17 +8,17 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId> <!-- e.g. be.vlaanderen.bodemenondergrond.data.id.graph -->
-  <artifactId>codelijst-opslaglocaties</artifactId> <!-- e.g. codelijst-testrepo -->
-  <version>0.1.1-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
+  <artifactId>codelijst-opslaglocatie</artifactId> <!-- e.g. codelijst-testrepo -->
+  <version>0.1.0-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
   <packaging>jar</packaging>
 
-  <name>codelijst-opslaglocaties</name> <!-- e.g. codelijst-testrepo -->
+  <name>codelijst-opslaglocatie</name> <!-- e.g. codelijst-testrepo -->
 
 
   <scm>
-        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-opslaglocaties.git</connection>
-        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-opslaglocaties.git</developerConnection>
-        <url>https://github.com/bodemenondergrond/codelijst-opslaglocaties.git</url>
+        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-opslaglocatie</connection>
+        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-opslaglocatie</developerConnection>
+        <url>https://github.com/bodemenondergrond/codelijst-opslaglocatie</url>
     <tag>HEAD</tag>
   </scm>
   <build>
