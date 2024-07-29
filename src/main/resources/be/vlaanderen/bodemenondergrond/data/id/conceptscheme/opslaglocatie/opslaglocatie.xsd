@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:simpleType name="">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-opslaglocatie">
+  <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.opslaglocatie">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocaties/4"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocaties/2"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocaties/3"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocaties/1"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/1" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/2" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/3" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/4" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>

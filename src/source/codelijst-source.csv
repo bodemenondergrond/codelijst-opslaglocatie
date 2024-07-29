@@ -1,0 +1,7 @@
+uri,dc.identifier,collections,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+collectie:opslaglocaties,be.vlaanderen.bodemenondergrond.data.id.collection.opslaglocatie.opslaglocaties,,,Collectie van opslaglocaties.,,,,,,,,,,,,,conceptscheme:opslaglocatie,,,,,,,
+2,2,collectie:opslaglocaties,2,Afdeling Geotechniek (Zwijnaarde),,,,,,,,,,,,,conceptscheme:opslaglocatie,,,,,,,conceptscheme:opslaglocatie
+4,be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.4,collectie:opslaglocaties,4,De grotten van Han,,,,,,,,,,,,,conceptscheme:opslaglocatie,,,,,,,conceptscheme:opslaglocatie
+1,1,collectie:opslaglocaties,1,Geotheek Vilvoorde,,,,,,,,,,,,,conceptscheme:opslaglocatie,,,,,,,conceptscheme:opslaglocatie
+3,3,collectie:opslaglocaties,3,steenkoolmijnen in Limburg,,,,,,,,,,,,,conceptscheme:opslaglocatie,,,,,,,conceptscheme:opslaglocatie
+conceptscheme:opslaglocatie,be.vlaanderen.bodemenondergrond.data.id.conceptscheme.opslaglocatie,,,Lijst van opslaglocaties,,,,,,,,,,,,,,,,,,,,
