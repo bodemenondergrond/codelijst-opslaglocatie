@@ -59,19 +59,19 @@ collectie:opslaglocaties dc:identifier "be.vlaanderen.bodemenondergrond.data.id.
     skos:inScheme conceptscheme:opslaglocatie;
     skos:member <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/4>;
     skos:prefLabel "Collectie van opslaglocaties."@nl.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/1> dc:identifier "1";
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/1> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.1";
     a skos:Concept;
     skos:inScheme conceptscheme:opslaglocatie;
     skos:notation "1";
     skos:prefLabel "Geotheek Vilvoorde"@nl;
     skos:topConceptOf conceptscheme:opslaglocatie.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/2> dc:identifier "2";
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/2> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.2";
     a skos:Concept;
     skos:inScheme conceptscheme:opslaglocatie;
     skos:notation "2";
     skos:prefLabel "Afdeling Geotechniek (Zwijnaarde)"@nl;
     skos:topConceptOf conceptscheme:opslaglocatie.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/3> dc:identifier "3";
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/3> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.3";
     a skos:Concept;
     skos:inScheme conceptscheme:opslaglocatie;
     skos:notation "3";

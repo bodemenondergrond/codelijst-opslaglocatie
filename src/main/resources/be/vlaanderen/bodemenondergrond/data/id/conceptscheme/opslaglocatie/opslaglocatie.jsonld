@@ -410,7 +410,7 @@
         {
             "id": "concept:1",
             "type": "skos:Concept",
-            "dc.identifier": "1",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.1",
             "inScheme": "conceptscheme:opslaglocatie",
             "notation": "1",
             "prefLabel": "Geotheek Vilvoorde",
@@ -419,7 +419,7 @@
         {
             "id": "concept:2",
             "type": "skos:Concept",
-            "dc.identifier": "2",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.2",
             "inScheme": "conceptscheme:opslaglocatie",
             "notation": "2",
             "prefLabel": "Afdeling Geotechniek (Zwijnaarde)",
@@ -428,7 +428,7 @@
         {
             "id": "concept:3",
             "type": "skos:Concept",
-            "dc.identifier": "3",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.3",
             "inScheme": "conceptscheme:opslaglocatie",
             "notation": "3",
             "prefLabel": "steenkoolmijnen in Limburg",
