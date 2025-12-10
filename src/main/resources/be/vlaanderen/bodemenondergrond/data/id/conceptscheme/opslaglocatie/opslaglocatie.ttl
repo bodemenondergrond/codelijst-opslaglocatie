@@ -54,36 +54,39 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-collectie:opslaglocaties dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.opslaglocatie.opslaglocaties";
-    a skos:Collection;
-    skos:inScheme conceptscheme:opslaglocatie;
-    skos:member <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/4>;
-    skos:prefLabel "Collectie van opslaglocaties."@nl.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/1> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.1";
+concept:geotechniek dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.geotechniek";
     a skos:Concept;
+    skos:definition "Tijdelijke opslaglocatie voor geologische stalen bij Afdeling Geotechniek (Departement Mobiliteit en Openbare Werken) te Zwijnaarde."@nl;
     skos:inScheme conceptscheme:opslaglocatie;
-    skos:notation "1";
+    skos:notation "Geotechniek";
+    skos:note "Tijdelijke opslaglocatie voor geologische stalen bij Afdeling Geotechniek (Departement Mobiliteit en Openbare Werken) te Zwijnaarde."@nl;
+    skos:prefLabel "Afdeling Geotechniek"@nl;
+    skos:topConceptOf conceptscheme:opslaglocatie.
+concept:geotheek dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.geotheek";
+    a skos:Concept;
+    skos:definition "Opslaglocatie voor geologische stalen van het Departement Omgeving in het Depot van de Vlaamse overheid te Vilvoorde."@nl;
+    skos:inScheme conceptscheme:opslaglocatie;
+    skos:notation "Geotheek";
+    skos:note "Opslaglocatie voor geologische stalen van het Departement Omgeving in het Depot van de Vlaamse overheid te Vilvoorde."@nl;
     skos:prefLabel "Geotheek Vilvoorde"@nl;
     skos:topConceptOf conceptscheme:opslaglocatie.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/2> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.2";
+concept:han dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.han";
     a skos:Concept;
+    skos:definition "De grotten van Han (Han-sur-Lesse)"@nl;
     skos:inScheme conceptscheme:opslaglocatie;
-    skos:notation "2";
-    skos:prefLabel "Afdeling Geotechniek (Zwijnaarde)"@nl;
-    skos:topConceptOf conceptscheme:opslaglocatie.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/3> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.3";
-    a skos:Concept;
-    skos:inScheme conceptscheme:opslaglocatie;
-    skos:notation "3";
-    skos:prefLabel "steenkoolmijnen in Limburg"@nl;
-    skos:topConceptOf conceptscheme:opslaglocatie.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/4> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.4";
-    a skos:Concept;
-    skos:inScheme conceptscheme:opslaglocatie;
-    skos:notation "4";
+    skos:notation "Han";
+    skos:note "De grotten van Han (Han-sur-Lesse)"@nl;
     skos:prefLabel "De grotten van Han"@nl;
+    skos:topConceptOf conceptscheme:opslaglocatie.
+concept:steenkoolmijnen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.steenkoolmijnen";
+    a skos:Concept;
+    skos:definition "Ondergrondse steenkoolmijnen in Limburg."@nl;
+    skos:inScheme conceptscheme:opslaglocatie;
+    skos:notation "Steenkoolmijnen";
+    skos:note "Ondergrondse steenkoolmijnen in Limburg."@nl;
+    skos:prefLabel "Steenkoolmijnen in Limburg"@nl;
     skos:topConceptOf conceptscheme:opslaglocatie.
 conceptscheme:opslaglocatie dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.opslaglocatie";
     a skos:ConceptScheme;
-    skos:hasTopConcept <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/opslaglocatie/4>;
-    skos:prefLabel "Lijst van opslaglocaties"@nl.
+    skos:hasTopConcept concept:geotechniek, concept:geotheek, concept:han, concept:steenkoolmijnen;
+    skos:prefLabel "Codelijst opslaglocaties"@nl.

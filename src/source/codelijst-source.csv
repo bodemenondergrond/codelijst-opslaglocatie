@@ -1,7 +1,7 @@
-uri,dc.identifier,collections,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
-collectie:opslaglocaties,be.vlaanderen.bodemenondergrond.data.id.collection.opslaglocatie.opslaglocaties,,,Collectie van opslaglocaties.,,,,,,,,,,,,,conceptscheme:opslaglocatie,,,,,,,
-2,be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.2,collectie:opslaglocaties,2,Afdeling Geotechniek (Zwijnaarde),,,,,,,,,,,,,conceptscheme:opslaglocatie,,,,,,,conceptscheme:opslaglocatie
-4,be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.4,collectie:opslaglocaties,4,De grotten van Han,,,,,,,,,,,,,conceptscheme:opslaglocatie,,,,,,,conceptscheme:opslaglocatie
-1,be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.1,collectie:opslaglocaties,1,Geotheek Vilvoorde,,,,,,,,,,,,,conceptscheme:opslaglocatie,,,,,,,conceptscheme:opslaglocatie
-3,be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.3,collectie:opslaglocaties,3,steenkoolmijnen in Limburg,,,,,,,,,,,,,conceptscheme:opslaglocatie,,,,,,,conceptscheme:opslaglocatie
-conceptscheme:opslaglocatie,be.vlaanderen.bodemenondergrond.data.id.conceptscheme.opslaglocatie,,,Lijst van opslaglocaties,,,,,,,,,,,,,,,,,,,,
+uri,dc.identifier,notation,prefLabel,definition,inScheme,topConceptOf
+conceptscheme:opslaglocatie,be.vlaanderen.bodemenondergrond.data.id.conceptscheme.opslaglocatie,,Codelijst opslaglocaties,,,
+concept:geotechniek,be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.geotechniek,Geotechniek,Afdeling Geotechniek,"Tijdelijke opslaglocatie voor geologische stalen bij Afdeling Geotechniek (Departement Mobiliteit en Openbare Werken) te Zwijnaarde.",conceptscheme:opslaglocatie,conceptscheme:opslaglocatie
+concept:han,be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.han,Han,"De grotten van Han","De grotten van Han (Han-sur-Lesse)",conceptscheme:opslaglocatie,conceptscheme:opslaglocatie
+concept:geotheek,be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.geotheek,Geotheek,"Geotheek Vilvoorde","Opslaglocatie voor geologische stalen van het Departement Omgeving in het Depot van de Vlaamse overheid te Vilvoorde.",conceptscheme:opslaglocatie,conceptscheme:opslaglocatie
+concept:steenkoolmijnen,be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.steenkoolmijnen,Steenkoolmijnen,"Steenkoolmijnen in Limburg","Ondergrondse steenkoolmijnen in Limburg.",conceptscheme:opslaglocatie,conceptscheme:opslaglocatie
+

@@ -395,52 +395,47 @@
     },
     "graph": [
         {
-            "id": "collectie:opslaglocaties",
-            "type": "skos:Collection",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.opslaglocatie.opslaglocaties",
+            "id": "concept:geotechniek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.geotechniek",
+            "definition": "Tijdelijke opslaglocatie voor geologische stalen bij Afdeling Geotechniek (Departement Mobiliteit en Openbare Werken) te Zwijnaarde.",
             "inScheme": "conceptscheme:opslaglocatie",
-            "member": [
-                "concept:1",
-                "concept:2",
-                "concept:3",
-                "concept:4"
-            ],
-            "prefLabel": "Collectie van opslaglocaties."
+            "notation": "Geotechniek",
+            "note": "Tijdelijke opslaglocatie voor geologische stalen bij Afdeling Geotechniek (Departement Mobiliteit en Openbare Werken) te Zwijnaarde.",
+            "prefLabel": "Afdeling Geotechniek",
+            "topConceptOf": "conceptscheme:opslaglocatie"
         },
         {
-            "id": "concept:1",
+            "id": "concept:geotheek",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.1",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.geotheek",
+            "definition": "Opslaglocatie voor geologische stalen van het Departement Omgeving in het Depot van de Vlaamse overheid te Vilvoorde.",
             "inScheme": "conceptscheme:opslaglocatie",
-            "notation": "1",
+            "notation": "Geotheek",
+            "note": "Opslaglocatie voor geologische stalen van het Departement Omgeving in het Depot van de Vlaamse overheid te Vilvoorde.",
             "prefLabel": "Geotheek Vilvoorde",
             "topConceptOf": "conceptscheme:opslaglocatie"
         },
         {
-            "id": "concept:2",
+            "id": "concept:han",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.2",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.han",
+            "definition": "De grotten van Han (Han-sur-Lesse)",
             "inScheme": "conceptscheme:opslaglocatie",
-            "notation": "2",
-            "prefLabel": "Afdeling Geotechniek (Zwijnaarde)",
-            "topConceptOf": "conceptscheme:opslaglocatie"
-        },
-        {
-            "id": "concept:3",
-            "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.3",
-            "inScheme": "conceptscheme:opslaglocatie",
-            "notation": "3",
-            "prefLabel": "steenkoolmijnen in Limburg",
-            "topConceptOf": "conceptscheme:opslaglocatie"
-        },
-        {
-            "id": "concept:4",
-            "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.4",
-            "inScheme": "conceptscheme:opslaglocatie",
-            "notation": "4",
+            "notation": "Han",
+            "note": "De grotten van Han (Han-sur-Lesse)",
             "prefLabel": "De grotten van Han",
+            "topConceptOf": "conceptscheme:opslaglocatie"
+        },
+        {
+            "id": "concept:steenkoolmijnen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.opslaglocatie.steenkoolmijnen",
+            "definition": "Ondergrondse steenkoolmijnen in Limburg.",
+            "inScheme": "conceptscheme:opslaglocatie",
+            "notation": "Steenkoolmijnen",
+            "note": "Ondergrondse steenkoolmijnen in Limburg.",
+            "prefLabel": "Steenkoolmijnen in Limburg",
             "topConceptOf": "conceptscheme:opslaglocatie"
         },
         {
@@ -448,12 +443,12 @@
             "type": "skos:ConceptScheme",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.opslaglocatie",
             "hasTopConcept": [
-                "concept:1",
-                "concept:2",
-                "concept:3",
-                "concept:4"
+                "concept:geotechniek",
+                "concept:geotheek",
+                "concept:han",
+                "concept:steenkoolmijnen"
             ],
-            "prefLabel": "Lijst van opslaglocaties"
+            "prefLabel": "Codelijst opslaglocaties"
         }
     ]
 }

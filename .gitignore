@@ -17,5 +17,6 @@ buildNumber.properties
 .classpath
 temp
 codelijst-opslaglocatie.iml
+node_modules/
 src/.env
 src/utils/setenv.js
