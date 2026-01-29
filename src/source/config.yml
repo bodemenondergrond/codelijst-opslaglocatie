@@ -57,10 +57,11 @@ metadata :
     publisher : http://data.vlaanderen.be/id/organisatie/OVO003323
     rightsHolder :  http://data.vlaanderen.be/id/organisatie/OVO003749
     theme :
-      - http://eurovoc.europa.eu/2407
-      - http://publications.europa.eu/resource/authority/data-theme/ENVI
-      - http://vocab.belgif.be/auth/datatheme/ENVI
-      - http://www.eionet.europa.eu/gemet/concept/10087
+      - https://www.eionet.europa.eu/gemet/nl/concept/3650
+      - https://www.eionet.europa.eu/gemet/nl/concept/12665
+      - https://www.eionet.europa.eu/gemet/nl/concept/7843
+      - https://www.eionet.europa.eu/gemet/nl/concept/3031
+      - https://www.eionet.europa.eu/gemet/nl/concept/14976
     spatial :
       - http://publications.europa.eu/resource/authority/country/BEL
       - https://sws.geonames.org/3337388/
