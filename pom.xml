@@ -9,7 +9,7 @@
 
   <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId>
   <artifactId>codelijst-opslaglocatie</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>codelijst-opslaglocatie</name>
@@ -18,7 +18,7 @@
     <connection>scm:git:https://github.com/bodemenondergrond/codelijst-opslaglocatie.git</connection>
     <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-opslaglocatie.git</developerConnection>
     <url>https://github.com/bodemenondergrond/codelijst-opslaglocatie.git</url>
-    <tag>codelijst-opslaglocatie-1.0.1</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
